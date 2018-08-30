@@ -16,5 +16,12 @@ pipeline {
         sh 'echo "ram tam tam"'
       }
     }
+
+
+    stage('end') {
+          steps {
+            sh 'echo "ram tam tam - end"'
+          }
+    }
   }
 }
