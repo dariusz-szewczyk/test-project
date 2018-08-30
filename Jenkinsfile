@@ -6,5 +6,10 @@ pipeline {
         echo 'step 1'
       }
     }
+    stage('wait') {
+      steps {
+        sleep 10
+      }
+    }
   }
 }
