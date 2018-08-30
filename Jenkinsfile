@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('s1') {
+    stage('start') {
       steps {
         echo 'step 1'
       }
@@ -9,6 +9,11 @@ pipeline {
     stage('wait') {
       steps {
         sleep 10
+      }
+    }
+    stage('ram tam tam') {
+      steps {
+        sh 'echo "ram tam tam"'
       }
     }
   }
