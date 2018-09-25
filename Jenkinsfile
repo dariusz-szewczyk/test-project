@@ -25,7 +25,3 @@ pipeline {
     }
   }
 }
-
-
-
-merger-001
